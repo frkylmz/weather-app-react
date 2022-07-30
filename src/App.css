@@ -1,0 +1,55 @@
+.body {
+  padding: 15px;
+  font-size: medium;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body.light {
+  background-image: url(https://i.hizliresim.com/7946lt6.jpg);
+
+  /* https://img.freepik.com/free-photo/cloud-sky-twilight-times_74190-4017.jpg?t=st=1656687745~exp=1656688345~hmac=c09db310ec028ec053b5942e9290cb8c7c9744cdc978667d8e36fd4101be39f4&w=996 */
+
+  background-size: 105%;
+  color: #111;
+  font-variant: initial;
+  min-height: 100vh;
+  font-size: medium;
+}
+
+.body.dark {
+  background-image: url(https://cdn.wallpapersafari.com/44/92/oDed5S.jpg);
+  background-size: 100%;
+  color: #fff;
+  font-variant: initial;
+  min-height: 100vh;
+  font-size: medium;
+}
+
+.cardCss:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+@media only screen and (max-width: 1000px) {
+  .body.light {
+    background-image: url(https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 500%;
+    color: #555;
+    font-variant: initial;
+    min-height: -webkit-fill-avaible;
+    font-size: medium;
+    height: auto;
+  }
+
+  .body.dark {
+    background-image: url(https://images.unsplash.com/photo-1507400492013-162706c8c05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=659&q=80);
+    background-size: 150%;
+    color: #fff;
+    font-variant: initial;
+    min-height: -webkit-fill-avaible;
+    font-size: medium;
+    height: auto;
+  }
+}
