@@ -34,7 +34,7 @@ function App() {
 
   async function getData(value) {
     const data = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=5c8026919afb4042bbb133346222906&q=${value}&days=3&aqi=no&alerts=no&lang=en
+      `https://api.weatherapi.com/v1/forecast.json?key=5c8026919afb4042bbb133346222906&q=${value}&days=3&aqi=no&alerts=no&lang=en
       `
     );
     const result = await data.json();
